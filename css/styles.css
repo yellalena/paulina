@@ -1,0 +1,87 @@
+body.zdravstvuite {
+		background-image: url(bg1.jpg);
+		background-color: #43753b;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+
+	body.about {
+		background-image: url(aboutBg.jpg);
+		background-color: #102816;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center top;
+		}
+
+	body.links {
+		background-image: url(linksBg.jpg);
+		background-color: #6b7441;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center-top;
+	}
+
+	.brighten img {
+		/*-webkit-filter: brightness(66%);*/
+		-webkit-filter: contrast(66%);
+		/*-webkit-filter: grayscale(66%);*/
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
+	}
+
+	.brighten img:hover {
+		/*-webkit-filter: grayscale(0%);*/
+		/*-webkit-filter: brightness(100%);*/
+		-webkit-filter: contrast(100%);
+	}
+
+	#footer {
+		position: fixed; /* fixed position (wow) */
+		left: 0; bottom: 0; /* not really left bottom corner */
+		padding: 10px; /* Поля вокруг текста */
+		background: #213B22; /* backgroudn color */
+		opacity: 0.6;
+		color: #ffffff; /* text color */
+		width: 100%; /* layer's witdh */
+		text-align: center;
+	}
+	p {
+		text-align: center;
+		color: white;
+		font-size: 20px;
+		width: 100%;
+		opacity: 0.7;
+		/* font-family: impact;*/
+
+	}
+	h1 {
+		text-align: center;
+		color: white;
+		font-family: impact;
+		text-shadow: 1px 1px 10px #1E5220;
+		opacity: 0.8;
+	}
+	#upperBackground {
+		position: absolute;
+		top: 0; left: 0;
+		background: #213B22;
+		width: 100%;
+		opacity: 0.6;
+	}
+	#about {
+		position: absolute;
+		bottom: 60px;
+		/*left: 20%;*/
+		opacity: 0.8;
+	    margin-left: 40%;
+	    
+	}
+	#links{
+		width: 100%;
+		position: absolute;
+		text-align: center;
+	}
