@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="icon.gif" type="image/gif"/>
+	<meta charset="utf-8">
+	<title> Добро пожаловать к Полине Матвеевой</title>
+	<meta name="description" content="Сайт Полины Матвеевой, ученицы 9 класса, пердуньи и просто клевой девчонки.">
+	<link rel="stylesheet" href="styles.css" type="text/css"/>
+
+</head>
+<body class="zdravstvuite">
+<div id="upperBackground"><h1> Здравствуйте! Добро пожаловать на сайт Полины Матвеевой! </h1></div>
+<p style="position: absolute; bottom: 60px;">На этом сайте вы можете узнать всю самую актуальную информацию о жизни звезды. </p>
+<div id="links" style="top: 50%;">
+<a href="picsPage.html"><img border=0 alt="pictures" src="http://www.familylobby.com/common/tt11172485fltt.gif"></a>
+<a href="linksPage.html"><img border=0 alt="links" src="http://www.familylobby.com/common/tt11172488fltt.gif"></a>
+<a href="aboutPage.html"><img border=0 alt="about" src="http://www.familylobby.com/common/tt11172471fltt.gif"></a>
+</div>
+<div id="footer">
+&copy; Алена Матвеева
+</div>
+</body>
+</html>
