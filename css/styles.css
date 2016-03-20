@@ -1,4 +1,5 @@
-body.zdravstvuite {
+
+	body.zdravstvuite {
 		background-image: url(img/bg1.jpg);
 		background-color: #43753b;
 		background-attachment: fixed;
@@ -22,7 +23,28 @@ body.zdravstvuite {
 		background-position: center-top;
 	}
 
-	.brighten img {
+	body.pics {
+		background-image: url(img/picsBg.jpg);
+		background-color: #083113;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center-top;
+	}
+
+	.brighten img{
+		-webkit-filter: brightness(60%);
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
+	}
+
+	.brighten img:hover{
+		-webkit-filter: brightness(100%);
+	}
+
+	.contrast img {
 		/*-webkit-filter: brightness(66%);*/
 		-webkit-filter: contrast(66%);
 		/*-webkit-filter: grayscale(66%);*/
@@ -33,7 +55,7 @@ body.zdravstvuite {
 		transition: all 1s ease;
 	}
 
-	.brighten img:hover {
+	.contrast img:hover {
 		/*-webkit-filter: grayscale(0%);*/
 		/*-webkit-filter: brightness(100%);*/
 		-webkit-filter: contrast(100%);
@@ -49,6 +71,7 @@ body.zdravstvuite {
 		width: 100%; /* layer's witdh */
 		text-align: center;
 	}
+
 	p {
 		text-align: center;
 		color: white;
@@ -84,4 +107,10 @@ body.zdravstvuite {
 		width: 100%;
 		position: absolute;
 		text-align: center;
+	}
+
+	#gallery {
+		position: absolute;
+		top: 20%;
+		left: 4%;
 	}
