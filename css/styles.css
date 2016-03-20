@@ -1,5 +1,5 @@
 body.zdravstvuite {
-		background-image: url(bg1.jpg);
+		background-image: url(img/bg1.jpg);
 		background-color: #43753b;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -7,7 +7,7 @@ body.zdravstvuite {
 	}
 
 	body.about {
-		background-image: url(aboutBg.jpg);
+		background-image: url(img/aboutBg.jpg);
 		background-color: #102816;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body.zdravstvuite {
 		}
 
 	body.links {
-		background-image: url(linksBg.jpg);
+		background-image: url(img/linksBg.jpg);
 		background-color: #6b7441;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
