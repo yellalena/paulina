@@ -20,7 +20,7 @@
 		background-color: #6b7441;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-		background-position: center-top;
+		background-position: center top;
 	}
 
 	body.pics {
@@ -28,7 +28,7 @@
 		background-color: #083113;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-		background-position: center-top;
+		background-position: center top;
 	}
 
 	.brighten img{
